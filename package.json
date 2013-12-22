@@ -1,0 +1,24 @@
+{
+  "name": "tennis-refactoring",
+  "version": "0.0.0",
+  "description": "A refactoring kata in JS",
+  "main": "TennisTest.js",
+  "scripts": {
+    "test": "node TennisTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ThibWeb/tennis-refactoring.git"
+  },
+  "keywords": [
+    "codingdojo",
+    "kata",
+    "refactoring",
+    "javascript"
+  ],
+  "author": "ThibWeb",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ThibWeb/tennis-refactoring/issues"
+  }
+}
