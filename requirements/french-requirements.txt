@@ -1,0 +1,19 @@
+======================================
+Tennis Refactoring Kata
+======================================
+
+Vous travaillez pour une SSII, et l'un de vos collègues a effectué une mission pour un club de Tennis. Le contrat est de dix heures facturables, et votre collègue y a déjà passé 8,5 heures.
+Malheureusement, il est tombé malade. Il dit avoir terminé le travail, et les tests passent tous. Votre patronne vous demande de prendre sa suite. Elle veut que vous passiez à peu près une heure sur le code pour qu'elle puisse faire payer les dix heures. Elle demande que vous nettoyiez le code et preniez des notes pour donner un retour à votre collègue sur son design.
+
+Le Tennis a un mécanisme de score plutôt particulier, et il peut être difficile à appréhender pour les nouveaux venus. Le club vous a mandaté pour construire un panneau d'affichage du score actuel durant les parties.
+
+Votre tâche est d'écrire une classe "TennisGame" pour contenir la logique qui renvoie le bon score comme une chaîne de caractères à afficher sur le panneau de score. Quand un joueur marque un point, une méthode est déclenchée sur la classe pour savoir qui a marqué. Ensuite, le panneau de score appellera "score()" pour savoir ce qui doit être affiché. Cette méthode doit renvoyer une String avec le score actuel.
+
+Vous pouvez en apprendre plus sur le score au Tennis [ici](http://en.wikipedia.org/wiki/Tennis#Scoring), résumé ci-dessous :
+
+1. Un jeu est gagné par le premier joueur ayant marqué au moins quatre points au total et au moins deux points de plus que son adversaire.
+2. Le score actuel de chaque jeu est décrit dans une manière particulière au Tennis : les points sont décrits par les mots "love", "fifteen", "thirty", et "forty".
+3. Si au moins trois points ont été marqués par chaque joueur, et que les scores sont égaux, le score est "deuce".
+4. Si au moins trois points sont marqués de chaque côté et un joueur a un point de plus, le score du jeu est "advantage".
+
+Vous ne devez suivre que le score du jeu courant. Les sets et matchs seront gérés ailleurs.
