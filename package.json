@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ThibWeb/tennis-refactoring.git"
+    "url": "git://github.com/thibaudcolas/tennis-refactoring.git"
   },
   "keywords": [
     "codingdojo",
@@ -16,9 +16,9 @@
     "refactoring",
     "javascript"
   ],
-  "author": "ThibWeb",
+  "author": "Thibaud Colas <thibaudcolas@gmail.com> (https://github.com/thibaudcolas)",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/ThibWeb/tennis-refactoring/issues"
+    "url": "https://github.com/thibaudcolas/tennis-refactoring/issues"
   }
 }
